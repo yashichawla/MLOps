@@ -1,5 +1,5 @@
 provider "google" {
-    project = "<YOUR_PROJECT_ID>" # Replace with your project ID
+    project = "poc-lab-478221"
     region  = "us-central1"
     zone    = "us-central1-a"
 }

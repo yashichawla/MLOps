@@ -172,15 +172,17 @@ After installation and initialization (`terraform init`), we successfully applie
 
 **Terraform Apply Output**
 
-![Setup](Labs\Terraform_Labs\GCP\Lab1_Beginner\apply_resource.png)
+![Setup](Labs/Terraform_Labs/GCP/Lab1_Beginner/apply_resource.png)
 
 **Terraform Bucket Created in GCP**
 
-![Setup2](Labs\Terraform_Labs\GCP\Lab1_Beginner\added_terraform_bucket.png)
+![Setup2](Labs/Terraform_Labs/GCP/Lab1_Beginner/added_terraform_bucket.png)
 
 ---
 
 ## Changes Made in `main.tf`
+
+New main.tf available at - [new main.tf](Labs/Terraform_Labs/terraform-lab-gcp/main.tf)
 
 We expanded the base configuration to include:
 
@@ -213,6 +215,6 @@ These changes show how Terraform manages multiple GCP resources and relationship
 
 ### Updated `main.tf` Output Screenshot
 
-![Updated Setup](Labs\Terraform_Labs\GCP\Lab1_Beginner\new_resource.png)
+![Updated Setup](Labs/Terraform_Labs/GCP/Lab1_Beginner/new_resource.png)
 
 ---
